@@ -1,0 +1,2 @@
+FILE="hello"
+gcc -o $FILE $FILE.c && ./$FILE

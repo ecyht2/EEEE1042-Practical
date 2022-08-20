@@ -1,0 +1,4 @@
+FILE="TanHongKai_practical4_EEEE1042.1"
+vg="valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes --track-origins=yes"
+
+gcc -o $FILE $FILE.c -lm && ./$FILE

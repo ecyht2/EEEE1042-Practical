@@ -1,0 +1,2 @@
+FILE="Q3"
+gcc -o $FILE $FILE.c && ./$FILE

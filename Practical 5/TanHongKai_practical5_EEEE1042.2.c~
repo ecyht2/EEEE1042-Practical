@@ -1,0 +1,15 @@
+#include<stdio.h>
+float farenheit[6];
+float celcius[6];
+
+void ask_temp(char *){
+  return
+}
+
+int main(){
+  for(int i = 0; i < 6; i++){
+    printf("Please enter farenheit value 0\n");
+    scanf("%d", farenheit[i]);
+  }
+  ask_temp("hi");
+}
